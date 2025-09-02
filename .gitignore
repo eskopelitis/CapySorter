@@ -1,0 +1,32 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+Assets/StreamingAssets/aa/* # addressables build artifacts
+
+# IDE/artifacts
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.mdb
+*.opendb
+*.VC.db
+
+# Gradle/Android/iOS build outputs
+.gradle/
+*.apk
+*.aab
+*.ipa
+*.keystore
