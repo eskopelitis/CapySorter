@@ -11,6 +11,9 @@ namespace NeonShift.Bootstrap
         [SerializeField] CenterDropSpawner sp;
         [SerializeField] Transform spawnRoot;
 
+    private readonly List<float> _spawnTimes = new List<float>(64);
+    private readonly List<ItemType> _spawnTypes = new List<ItemType>(64);
+
         void Start()
         {
             // Determinism
@@ -31,8 +34,8 @@ namespace NeonShift.Bootstrap
             Debug.Log(cadence ? "PASS: cadence" : "FAIL: cadence");
 
             // Pressure once/round: simulate pressure diff and ensure single -10
-            var tow = FindObjectOfType<TugOfWaste>();
-            var gm = FindObjectOfType<GameManager>();
+            var tow = FindFirstObjectByType<TugOfWaste>();
+            var gm = FindFirstObjectByType<GameManager>();
             if (tow != null && gm != null)
             {
                 gm.You.Reset(); gm.Rival.Reset(); tow.ResetForRound();
@@ -60,11 +63,24 @@ namespace NeonShift.Bootstrap
 
         private List<ItemType> CollectSpawns(int seed, out List<float> times)
         {
-            var list = new List<ItemType>(64); times = new List<float>(64);
+            _spawnTimes.Clear();
+            _spawnTypes.Clear();
             sp.Init(seed, 10f, tier, spawnRoot, null);
-            float t=0f; for (int i=0;i<30;i++){sp.Tick(0f); sp.Tick(0.5f); t+=0.5f;}
-            sp.OnItemSpawned += (idx, type, isBomb, time) => { list.Add(type); times.Add(time); };
-            return list;
+            sp.OnItemSpawned += OnSpawnCollect;
+            float t = 0f;
+            while (_spawnTypes.Count < 30)
+            {
+                sp.Tick(0.1f); t += 0.1f;
+            }
+            sp.OnItemSpawned -= OnSpawnCollect;
+            times = new List<float>(_spawnTimes);
+            return new List<ItemType>(_spawnTypes);
+        }
+
+        private void OnSpawnCollect(int idx, ItemType type, bool isBomb, float timestamp)
+        {
+            _spawnTypes.Add(type);
+            _spawnTimes.Add(timestamp);
         }
 
         private bool CheckCadence(List<float> times)
@@ -80,7 +96,7 @@ namespace NeonShift.Bootstrap
             return true;
         }
 
-        private System.Collections.IEnumerator SuddenDeathCheck(GameManager gm)
+    private System.Collections.IEnumerator SuddenDeathCheck(GameManager gm)
         {
             // Fast-forward: set scores equal and simulate round end by calling RunRound then immediately resolve tie
             // We can't force time, but we can wait a few frames and then simulate a correct sort to break tie

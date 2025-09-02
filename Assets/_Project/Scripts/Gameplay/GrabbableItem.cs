@@ -29,7 +29,7 @@ namespace CapySorter.Gameplay
         public void OnToss(Vector2 velocity)
         {
             _grabbed = false;
-            _rb.velocity = Vector2.zero;
+            _rb.linearVelocity = Vector2.zero;
             _rb.angularVelocity = 0f;
             _rb.AddForce(velocity, ForceMode2D.Impulse);
         }

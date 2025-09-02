@@ -26,7 +26,7 @@ namespace CapySorter.Gameplay
 
             var rb = other.attachedRigidbody;
             if (!rb) return;
-            if (rb.velocity.sqrMagnitude > MaxSpeed * MaxSpeed) return;
+            if (rb.linearVelocity.sqrMagnitude > MaxSpeed * MaxSpeed) return;
 
             // Track time using a component-bound timer to avoid allocations
             var timer = other.GetComponent<_DefuseTimer>();

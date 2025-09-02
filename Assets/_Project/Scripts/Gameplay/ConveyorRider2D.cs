@@ -24,7 +24,7 @@ namespace CapySorter.Gameplay
         {
             if (!_enabled) return;
             var v = new Vector2(_speed, 0f);
-            _rb.velocity = v;
+            _rb.linearVelocity = v;
         }
     }
 }

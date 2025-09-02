@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.524695">
+  <test-suite type="TestSuite" id="1019" name="My project" fullname="My project" runstate="Runnable" testcasecount="8" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.524695" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1015" name="PlayModeTests.dll" fullname="C:/Users/anton/My project/Library/ScriptAssemblies/PlayModeTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.518070" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="4168" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1009" name="EventSchemaCoveragePlayModeTests" fullname="EventSchemaCoveragePlayModeTests" classname="EventSchemaCoveragePlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.088280" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1010" name="All_Analytics_Events_Appear_In_Short_Round" fullname="EventSchemaCoveragePlayModeTests.All_Analytics_Events_Appear_In_Short_Round" methodname="All_Analytics_Events_Appear_In_Short_Round" classname="EventSchemaCoveragePlayModeTests" runstate="Runnable" seed="849453208" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.077374" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[{evt:"combo_change",t:3422,streak:0}
+{evt:"combo_change",t:3427,streak:0}
+{evt:"run_start",t:3428,seed:12345,tierStart:1}
+{evt:"combo_change",t:3429,streak:2}
+{evt:"item_sorted",t:3430,correct:true,streak:2}
+{evt:"flow_pips_change",t:3431,pipsDelta:1,pipsTotal:1}
+{evt:"combo_change",t:3432,streak:3}
+{evt:"item_sorted",t:3432,correct:true,streak:3}
+{evt:"flow_pips_change",t:3433,pipsDelta:1,pipsTotal:2}
+{evt:"item_spawn",t:3434,index:0,type:"Recycle",isBomb:false,time:250}
+{evt:"combo_change",t:3435,streak:5}
+{evt:"item_sorted",t:3435,correct:true,streak:5}
+{evt:"flow_pips_change",t:3436,pipsDelta:1,pipsTotal:3}
+{evt:"combo_change",t:3437,streak:6}
+{evt:"item_sorted",t:3437,correct:true,streak:6}
+{evt:"flow_pips_change",t:3438,pipsDelta:1,pipsTotal:4}
+{evt:"combo_change",t:3439,streak:8}
+{evt:"item_sorted",t:3439,correct:true,streak:8}
+{evt:"flow_pips_change",t:3440,pipsDelta:1,pipsTotal:5}
+{evt:"tier_change",t:3440,tier:2,reason:"flow_up"}
+{evt:"combo_change",t:3441,streak:10}
+{evt:"item_sorted",t:3443,correct:true,streak:10}
+{evt:"flow_pips_change",t:3444,pipsDelta:1,pipsTotal:6}
+{evt:"combo_change",t:3445,streak:12}
+{evt:"item_sorted",t:3446,correct:true,streak:12}
+{evt:"flow_pips_change",t:3447,pipsDelta:1,pipsTotal:7}
+{evt:"combo_change",t:3448,streak:13}
+{evt:"item_sorted",t:3449,correct:true,streak:13}
+{evt:"flow_pips_change",t:3450,pipsDelta:1,pipsTotal:8}
+{evt:"combo_change",t:3450,streak:15}
+{evt:"item_sorted",t:3451,correct:true,streak:15}
+{evt:"flow_pips_change",t:3451,pipsDelta:1,pipsTotal:9}
+{evt:"pressure_start",t:3452,diff:15}
+{evt:"combo_change",t:3453,streak:16}
+{evt:"item_sorted",t:3454,correct:true,streak:16}
+{evt:"flow_pips_change",t:3454,pipsDelta:1,pipsTotal:10}
+{evt:"tier_change",t:3455,tier:3,reason:"flow_up"}
+{evt:"combo_change",t:3456,streak:13}
+{evt:"item_sorted",t:3456,correct:false,streak:13}
+{evt:"flow_pips_change",t:3457,pipsDelta:-3,pipsTotal:7}
+{evt:"tier_change",t:3458,tier:2,reason:"mistake_down"}
+{evt:"pressure_break",t:3458,diff:14}
+{evt:"combo_change",t:3459,streak:10}
+{evt:"item_sorted",t:3460,correct:false,streak:10}
+{evt:"flow_pips_change",t:3460,pipsDelta:-3,pipsTotal:4}
+{evt:"tier_change",t:3461,tier:1,reason:"mistake_down"}
+{evt:"combo_change",t:3462,streak:7}
+{evt:"item_sorted",t:3462,correct:false,streak:7}
+{evt:"flow_pips_change",t:3463,pipsDelta:-3,pipsTotal:1}
+{evt:"combo_change",t:3463,streak:4}
+{evt:"item_sorted",t:3464,correct:false,streak:4}
+{evt:"flow_pips_change",t:3465,pipsDelta:-1,pipsTotal:0}
+{evt:"combo_change",t:3465,streak:1}
+{evt:"item_sorted",t:3466,correct:false,streak:1}
+{evt:"flow_pips_change",t:3466,pipsDelta:0,pipsTotal:0}
+{evt:"combo_change",t:3467,streak:0}
+{evt:"item_sorted",t:3468,correct:false,streak:0}
+{evt:"flow_pips_change",t:3468,pipsDelta:0,pipsTotal:0}
+{evt:"combo_change",t:3469,streak:0}
+{evt:"item_sorted",t:3470,correct:false,streak:0}
+{evt:"flow_pips_change",t:3470,pipsDelta:0,pipsTotal:0}
+{evt:"combo_change",t:3471,streak:0}
+{evt:"item_sorted",t:3472,correct:false,streak:0}
+{evt:"flow_pips_change",t:3472,pipsDelta:0,pipsTotal:0}
+{evt:"combo_change",t:3473,streak:0}
+{evt:"item_sorted",t:3473,correct:false,streak:0}
+{evt:"flow_pips_change",t:3474,pipsDelta:0,pipsTotal:0}
+{evt:"combo_change",t:3475,streak:0}
+{evt:"item_sorted",t:3475,correct:false,streak:0}
+{evt:"flow_pips_change",t:3476,pipsDelta:0,pipsTotal:0}
+{evt:"pressure_start",t:3477,diff:19}
+{evt:"pressure_complete",t:3479,diff:19,applied:-10}
+{evt:"bomb_spawn",t:3481,index:-1,time:8199}
+{evt:"bomb_defuse",t:3481,index:-1}
+{evt:"bomb_explode",t:3482,index:-1}
+{evt:"round_end",t:3482,winner:"rival",youScore:-14,rivalScore:15,sudden_death:false,retry_ms:0}
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1011" name="Sprint1AcceptanceTests" fullname="Sprint1AcceptanceTests" classname="Sprint1AcceptanceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.428683" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1014" name="Bo3_SuddenDeath_Resolution_Helper" fullname="Sprint1AcceptanceTests.Bo3_SuddenDeath_Resolution_Helper" methodname="Bo3_SuddenDeath_Resolution_Helper" classname="Sprint1AcceptanceTests" runstate="Runnable" seed="480595678" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.007604" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[{evt:"round_end",t:3498,winner:"you",youScore:11,rivalScore:10,sudden_death:true,retry_ms:0}
+]]></output>
+        </test-case>
+        <test-case id="1013" name="Pressure_Once_Round" fullname="Sprint1AcceptanceTests.Pressure_Once_Round" methodname="Pressure_Once_Round" classname="Sprint1AcceptanceTests" runstate="Runnable" seed="342942583" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.004696" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[{evt:"combo_change",t:3505,streak:0}
+{evt:"combo_change",t:3506,streak:0}
+{evt:"pressure_start",t:3506,diff:20}
+{evt:"pressure_complete",t:3507,diff:20,applied:-10}
+]]></output>
+        </test-case>
+        <test-case id="1012" name="Spawner_Determinism_BombGap_Cadence" fullname="Sprint1AcceptanceTests.Spawner_Determinism_BombGap_Cadence" methodname="Spawner_Determinism_BombGap_Cadence" classname="Sprint1AcceptanceTests" runstate="Runnable" seed="1669000452" result="Passed" start-time="2025-09-02 23:06:30Z" end-time="2025-09-02 23:06:30Z" duration="0.415163" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[{evt:"item_spawn",t:3511,index:0,type:"Recycle",isBomb:false,time:250}
+{evt:"item_spawn",t:3518,index:1,type:"Bomb",isBomb:true,time:5750}
+{evt:"bomb_spawn",t:3519,index:1,time:5750}
+{evt:"bomb_defuse",t:3519,index:1}
+{evt:"bomb_explode",t:3520,index:1}
+{evt:"item_spawn",t:3526,index:2,type:"Compost",isBomb:false,time:11250}
+{evt:"item_spawn",t:3533,index:3,type:"Compost",isBomb:false,time:16750}
+{evt:"item_spawn",t:3540,index:4,type:"Recycle",isBomb:false,time:22250}
+{evt:"item_spawn",t:3546,index:5,type:"Compost",isBomb:false,time:27750}
+{evt:"item_spawn",t:3553,index:6,type:"Compost",isBomb:false,time:33250}
+{evt:"item_spawn",t:3560,index:7,type:"Recycle",isBomb:false,time:38750}
+{evt:"item_spawn",t:3567,index:8,type:"Compost",isBomb:false,time:44250}
+{evt:"item_spawn",t:3573,index:9,type:"Bomb",isBomb:true,time:49750}
+{evt:"bomb_spawn",t:3574,index:9,time:49750}
+{evt:"bomb_explode",t:3575,index:9}
+{evt:"item_spawn",t:3582,index:10,type:"Trash",isBomb:false,time:55250}
+{evt:"item_spawn",t:3588,index:11,type:"Recycle",isBomb:false,time:60750}
+{evt:"item_spawn",t:3595,index:12,type:"Trash",isBomb:false,time:66250}
+{evt:"item_spawn",t:3602,index:13,type:"Trash",isBomb:false,time:71750}
+{evt:"item_spawn",t:3609,index:14,type:"Trash",isBomb:false,time:77250}
+{evt:"item_spawn",t:3615,index:15,type:"Trash",isBomb:false,time:82750}
+{evt:"item_spawn",t:3622,index:16,type:"Recycle",isBomb:false,time:88250}
+{evt:"item_spawn",t:3629,index:17,type:"Recycle",isBomb:false,time:93750}
+{evt:"item_spawn",t:3635,index:18,type:"Compost",isBomb:false,time:99250}
+{evt:"item_spawn",t:3642,index:19,type:"Recycle",isBomb:false,time:104750}
+{evt:"item_spawn",t:3648,index:20,type:"Trash",isBomb:false,time:110250}
+{evt:"item_spawn",t:3655,index:21,type:"Trash",isBomb:false,time:115750}
+{evt:"item_spawn",t:3663,index:22,type:"Trash",isBomb:false,time:121250}
+{evt:"item_spawn",t:3671,index:23,type:"Recycle",isBomb:false,time:126750}
+{evt:"item_spawn",t:3678,index:24,type:"Trash",isBomb:false,time:132250}
+{evt:"item_spawn",t:3685,index:25,type:"Compost",isBomb:false,time:137750}
+{evt:"item_spawn",t:3692,index:26,type:"Compost",isBomb:false,time:143250}
+{evt:"item_spawn",t:3698,index:27,type:"Compost",isBomb:false,time:148750}
+{evt:"item_spawn",t:3705,index:28,type:"Recycle",isBomb:false,time:154250}
+{evt:"item_spawn",t:3712,index:29,type:"Recycle",isBomb:false,time:159750}
+{evt:"item_spawn",t:3713,index:0,type:"Recycle",isBomb:false,time:250}
+{evt:"item_spawn",t:3720,index:1,type:"Bomb",isBomb:true,time:5750}
+{evt:"bomb_spawn",t:3721,index:1,time:5750}
+{evt:"bomb_defuse",t:3721,index:1}
+{evt:"bomb_explode",t:3722,index:1}
+{evt:"item_spawn",t:3729,index:2,type:"Compost",isBomb:false,time:11250}
+{evt:"item_spawn",t:3735,index:3,type:"Compost",isBomb:false,time:16750}
+{evt:"item_spawn",t:3743,index:4,type:"Recycle",isBomb:false,time:22250}
+{evt:"item_spawn",t:3750,index:5,type:"Compost",isBomb:false,time:27750}
+{evt:"item_spawn",t:3757,index:6,type:"Compost",isBomb:false,time:33250}
+{evt:"item_spawn",t:3765,index:7,type:"Recycle",isBomb:false,time:38750}
+{evt:"item_spawn",t:3774,index:8,type:"Compost",isBomb:false,time:44250}
+{evt:"item_spawn",t:3781,index:9,type:"Bomb",isBomb:true,time:49750}
+{evt:"bomb_spawn",t:3782,index:9,time:49750}
+{evt:"bomb_explode",t:3782,index:9}
+{evt:"item_spawn",t:3789,index:10,type:"Trash",isBomb:false,time:55250}
+{evt:"item_spawn",t:3796,index:11,type:"Recycle",isBomb:false,time:60750}
+{evt:"item_spawn",t:3803,index:12,type:"Trash",isBomb:false,time:66250}
+{evt:"item_spawn",t:3810,index:13,type:"Trash",isBomb:false,time:71750}
+{evt:"item_spawn",t:3817,index:14,type:"Trash",isBomb:false,time:77250}
+{evt:"item_spawn",t:3824,index:15,type:"Trash",isBomb:false,time:82750}
+{evt:"item_spawn",t:3831,index:16,type:"Recycle",isBomb:false,time:88250}
+{evt:"item_spawn",t:3838,index:17,type:"Recycle",isBomb:false,time:93750}
+{evt:"item_spawn",t:3845,index:18,type:"Compost",isBomb:false,time:99250}
+{evt:"item_spawn",t:3852,index:19,type:"Recycle",isBomb:false,time:104750}
+{evt:"item_spawn",t:3859,index:20,type:"Trash",isBomb:false,time:110250}
+{evt:"item_spawn",t:3866,index:21,type:"Trash",isBomb:false,time:115750}
+{evt:"item_spawn",t:3872,index:22,type:"Trash",isBomb:false,time:121250}
+{evt:"item_spawn",t:3879,index:23,type:"Recycle",isBomb:false,time:126750}
+{evt:"item_spawn",t:3887,index:24,type:"Trash",isBomb:false,time:132250}
+{evt:"item_spawn",t:3895,index:25,type:"Compost",isBomb:false,time:137750}
+{evt:"item_spawn",t:3902,index:26,type:"Compost",isBomb:false,time:143250}
+{evt:"item_spawn",t:3908,index:27,type:"Compost",isBomb:false,time:148750}
+{evt:"item_spawn",t:3915,index:28,type:"Recycle",isBomb:false,time:154250}
+{evt:"item_spawn",t:3922,index:29,type:"Recycle",isBomb:false,time:159750}
+Saving results to: C:/Users/anton/AppData/LocalLow/DefaultCompany/My project\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

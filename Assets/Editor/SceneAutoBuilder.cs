@@ -45,7 +45,7 @@ public static class SceneAutoBuilder
         var pool = root.AddComponent<ItemPool>();
         var spawner = root.AddComponent<CenterDropSpawner>();
         var conveyor = root.AddComponent<ConveyorRider>();
-        var setup = root.AddComponent<SceneSetup>();
+    var setup = root.AddComponent<global::NeonShift.Bootstrap.SceneSetup>();
         var gcTracker = root.AddComponent<GcSanityTracker>();
 
         // Spawn root
@@ -53,10 +53,10 @@ public static class SceneAutoBuilder
         spawnRoot.position = new Vector3(-3f, 1f, 0f);
 
         // Prefabs
-        var recyclePrefab = CreateItemPrefab("Item_Recycle", ItemType.Recycle, new Color(0.2f, 0.8f, 0.2f));
-        var compostPrefab = CreateItemPrefab("Item_Compost", ItemType.Compost, new Color(0.6f, 0.4f, 0.2f));
-        var trashPrefab = CreateItemPrefab("Item_Trash", ItemType.Trash, new Color(0.5f, 0.5f, 0.5f));
-        var bombPrefab = CreateItemPrefab("Item_Bomb", ItemType.Bomb, new Color(0.8f, 0.2f, 0.2f));
+    var recyclePrefab = CreateItemPrefab("Item_Recycle", ItemType.Recycle, new Color(0.2f, 0.8f, 0.2f));
+    var compostPrefab = CreateItemPrefab("Item_Compost", ItemType.Compost, new Color(0.6f, 0.4f, 0.2f));
+    var trashPrefab = CreateItemPrefab("Item_Trash", ItemType.Trash, new Color(0.5f, 0.5f, 0.5f));
+    var bombPrefab = CreateItemPrefab("Item_Bomb", ItemType.Bomb, new Color(0.8f, 0.2f, 0.2f));
 
         // Configure ItemPool entries by prewarming
         pool.Prewarm(40);
@@ -108,7 +108,10 @@ public static class SceneAutoBuilder
         var gi = go.AddComponent<GrabbableItem>();
         gi.Type = type;
         var rend = go.GetComponent<Renderer>();
-        rend.sharedMaterial = GetOrCreateUnlitMaterial(color);
+        if (rend && rend.sharedMaterial)
+        {
+            try { rend.sharedMaterial.color = color; } catch {}
+        }
 
         string path = PrefabFolder + "/" + name + ".prefab";
         var prefab = PrefabUtility.SaveAsPrefabAsset(go, path);
@@ -116,19 +119,7 @@ public static class SceneAutoBuilder
         return prefab;
     }
 
-    private static Material GetOrCreateUnlitMaterial(Color color)
-    {
-        const string matPath = PrefabFolder + "/_Graybox.mat";
-        var mat = AssetDatabase.LoadAssetAtPath<Material>(matPath);
-        if (!mat)
-        {
-            mat = new Material(Shader.Find("Universal Render Pipeline/Lit"));
-            AssetDatabase.CreateAsset(mat, matPath);
-        }
-        mat.color = color;
-        EditorUtility.SetDirty(mat);
-        return mat;
-    }
+    // No custom material creation in batch mode to avoid shader load issues
 
     private static void CreateBin(string name, Vector3 pos, ItemType accepts, FlowTierProvider tier, GameManager gm)
     {

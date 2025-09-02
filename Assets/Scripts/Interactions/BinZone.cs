@@ -28,13 +28,16 @@ namespace NeonShift.Interactions
                 bool perfect = Vector3.Distance(transform.position, other.transform.position) <= 0.25f; // simplistic
                 _gm.You.AddCorrect(perfect);
                 _tier.AddPips(perfect ? 2 : 1);
-                AnalyticsBridge.Log("item_sorted", ("perfect", perfect), ("type", item.Type.ToString()), ("tier", _tier.CurrentTier));
+                // Log sorting result at the moment score changes
+                string bin = Accepts == ItemType.Recycle ? "L" : (Accepts == ItemType.Compost ? "C" : "R");
+                AnalyticsBridge.Log("item_sorted", ("type", item.Type.ToString()), ("correct", true), ("bin", bin), ("streak", _gm.You.Streak));
             }
             else
             {
                 _gm.You.AddContamination();
                 _tier.Contamination();
-                AnalyticsBridge.Log("item_sorted", ("perfect", false), ("type", item.Type.ToString()), ("tier", _tier.CurrentTier));
+                string bin = Accepts == ItemType.Recycle ? "L" : (Accepts == ItemType.Compost ? "C" : "R");
+                AnalyticsBridge.Log("item_sorted", ("type", item.Type.ToString()), ("correct", false), ("bin", bin), ("streak", _gm.You.Streak));
             }
         }
     }

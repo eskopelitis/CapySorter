@@ -7,6 +7,8 @@ on:
 jobs:
   build-android:
     runs-on: ubuntu-latest
+    env:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
     steps:
       - uses: actions/checkout@v4
       - name: Cache Library
@@ -16,8 +18,6 @@ jobs:
           key: Library-${{ runner.os }}
       - name: Build Android
         uses: game-ci/unity-builder@v4
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: Android
       - name: Upload Artifact

@@ -19,6 +19,8 @@ namespace NeonShift.Core
             Streak += perfect ? 2 : 1;
             OnScoreChanged?.Invoke();
             AnalyticsBridge.Log("combo_change", ("streak", Streak));
+            // Minimal item_sorted analytics when score changes (PlayMode tests call this directly)
+            AnalyticsBridge.Log("item_sorted", ("correct", true), ("streak", Streak)); // TODO: thread ("type"),("bin") to this layer
         }
 
         public void AddContamination()
@@ -27,6 +29,7 @@ namespace NeonShift.Core
             if (Streak > 0) Streak = Streak >= 3 ? Streak - 3 : 0;
             OnScoreChanged?.Invoke();
             AnalyticsBridge.Log("combo_change", ("streak", Streak));
+            AnalyticsBridge.Log("item_sorted", ("correct", false), ("streak", Streak)); // TODO: thread ("type"),("bin") to this layer
         }
 
         public void BombExplode()

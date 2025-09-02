@@ -1,3 +1,4 @@
+#if ENABLE_INPUT_SYSTEM
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
@@ -18,7 +19,9 @@ namespace CapySorter.Input
         void OnEnable()
         {
             EnhancedTouchSupport.Enable();
+            #if UNITY_EDITOR
             TouchSimulation.Enable();
+            #endif
             if (_cam == null) _cam = Camera.main;
             Touch.onFingerDown += OnFingerDown;
             Touch.onFingerUp += OnFingerUp;
@@ -30,7 +33,9 @@ namespace CapySorter.Input
             Touch.onFingerDown -= OnFingerDown;
             Touch.onFingerUp -= OnFingerUp;
             Touch.onFingerMove -= OnFingerMove;
+            #if UNITY_EDITOR
             TouchSimulation.Disable();
+            #endif
             EnhancedTouchSupport.Disable();
         }
 
@@ -84,3 +89,10 @@ namespace CapySorter.Input
         }
     }
 }
+#else
+using UnityEngine;
+namespace CapySorter.Input
+{
+    public class TouchTossController : MonoBehaviour { }
+}
+#endif
