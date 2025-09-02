@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2025-09-02 23:06:12Z" end-time="2025-09-02 23:06:12Z" duration="0.6834596">
+  <test-suite type="TestSuite" id="1000" name="My project" fullname="My project" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-09-02 23:06:12Z" end-time="2025-09-02 23:06:12Z" duration="0.683460" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="EditModeTests.dll" fullname="C:/Users/anton/My project/Library/ScriptAssemblies/EditModeTests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-09-02 23:06:12Z" end-time="2025-09-02 23:06:12Z" duration="0.670807" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34620" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="SceneBuilderEditModeTests" fullname="SceneBuilderEditModeTests" classname="SceneBuilderEditModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-09-02 23:06:12Z" end-time="2025-09-02 23:06:12Z" duration="0.666742" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="Scene_Builder_Saves_GameScene" fullname="SceneBuilderEditModeTests.Scene_Builder_Saves_GameScene" methodname="Scene_Builder_Saves_GameScene" classname="SceneBuilderEditModeTests" runstate="Runnable" seed="351441112" result="Passed" start-time="2025-09-02 23:06:12Z" end-time="2025-09-02 23:06:12Z" duration="0.647424" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Graybox scene built and saved at Assets/_Project/Scenes/GameScene.unity
+Saving results to: C:/Users/anton/AppData/LocalLow/DefaultCompany/My project\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

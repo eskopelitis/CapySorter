@@ -1,0 +1,27 @@
+name: Android CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    env:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ runner.os }}
+      - name: Build Android
+        uses: game-ci/unity-builder@v4
+        with:
+          targetPlatform: Android
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Android-APK
+          path: build/Android/*.apk

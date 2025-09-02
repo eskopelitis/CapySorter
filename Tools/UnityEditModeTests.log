@@ -1,0 +1,655 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.2f1 (ea398eefe1c2) revision 15350158'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-anton" at "2025-09-02T23:06:01.2681742Z"
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32665 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-09-02T23:06:01Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Unity.exe
+-batchmode
+-nographics
+-stackTraceLogType
+Full
+-projectPath
+C:\Users\anton\My project
+-logFile
+C:\Users\anton\My project\Tools\UnityEditModeTests.log
+-runTests
+-testPlatform
+EditMode
+-assemblyNames
+EditModeTests
+-testResults
+C:\Users\anton\My project\Tools\TestResults_EditMode.xml
+-testResultsFormat
+nunit3
+Successfully changed project path to: C:\Users\anton\My project
+C:/Users/anton/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34384]  Target information:
+
+Player connection [34384]  * "[IP] 153.33.219.80 [Port] 55504 [Flags] 2 [Guid] 2316168590 [EditorId] 2316168590 [Version] 1048832 [Id] WindowsEditor(7,NYPD-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15876, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-anton"
+[Licensing::IpcConnector] LicenseClient-anton channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-anton-6000.2.2 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 43980)
+[Package Manager] Connected to IPC stream "Upm-34620" after 0.3 seconds.
+Library Redirect Path: Library/
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-anton-6000.2.2" at "2025-09-02T23:06:01.6871019Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43980, path: "C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              20583df5907145cf9ce9cc1df465f3bf
+  Correlation Id:          d78d9af7abce62e29ded76cca1603dd5
+  External correlation Id: 7525123792615011442
+  Machine Id:              HmqIFmQr8MDMV/WbRNPljHedJeg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-anton-6000.2.2" (connect: 0.38s, validation: 0.15s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-anton-6000.2.2-notifications" at "2025-09-02T23:06:01.8382559Z"
+[Licensing::Module] Connected to LicensingClient (PId: 43980, launch time: 0.00, total connection time: 0.53s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474595688391-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Module] Licensing Background thread has ended after 0.61s
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.2f1 (ea398eefe1c2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anton/My project/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006094 seconds.
+- Loaded All Assemblies, in  0.344 seconds
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 638ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 72 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@12.0.2 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.animation@34e0443c58ed)
+    com.unity.2d.aseprite@2.0.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.aseprite@f6e7e126ac6d)
+    com.unity.2d.enhancers@1.0.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.enhancers@1df0eb7756ab)
+    com.unity.2d.psdimporter@11.0.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.psdimporter@0adcab25a8fd)
+    com.unity.2d.spriteshape@12.0.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.spriteshape@1d246726c231)
+    com.unity.2d.tilemap.extras@5.0.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.tilemap.extras@2338d989ff2a)
+    com.unity.ai.assistant@1.0.0-pre.12 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ai.assistant@91c166a13c3b)
+    com.unity.ai.generators@1.0.0-pre.20 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ai.generators@f55909672e13)
+    com.unity.ai.inference@2.3.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ai.inference@4ac711cab9a3)
+    com.unity.collab-proxy@2.9.2 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.collab-proxy@8f3c30ecd081)
+    com.unity.ide.rider@3.0.36 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ide.rider@4d374c7eb6db)
+    com.unity.ide.visualstudio@2.0.23 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13)
+    com.unity.inputsystem@1.14.2 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.timeline@1.8.9 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.timeline@6b9e48457ddb)
+    com.unity.visualscripting@1.9.7 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.visualscripting@6279e2b7c485)
+    com.unity.burst@1.8.24 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.burst@f7a407abf4d5)
+    com.unity.dt.app-ui@1.3.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.dt.app-ui@7b87c8225c06)
+    com.unity.collections@2.5.7 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.collections@d49facba0036)
+    com.unity.ai.toolkit@1.0.0-pre.20 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ai.toolkit@48a271771d1a)
+    com.unity.mathematics@1.3.2 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0)
+    com.unity.serialization@3.1.2 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.serialization@582cbf30bbfd)
+    com.unity.2d.common@11.0.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.common@dd402daace1b)
+    com.unity.settings-manager@2.1.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.settings-manager@41738c275190)
+    com.unity.searcher@4.9.3 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.searcher@1e17ce91558d)
+    com.unity.nuget.mono-cecil@1.11.5 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb)
+    com.unity.test-framework.performance@3.1.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.2d.tilemap@ba4a6b72f451)
+    com.unity.multiplayer.center@1.0.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.universal@17.2.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.render-pipelines.universal@a2829103b3d4)
+    com.unity.test-framework@1.5.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.test-framework@a6f5be5f149c)
+    com.unity.ugui@2.0.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ugui@754dbde2be27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+    com.unity.render-pipelines.core@17.2.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.render-pipelines.core@5e056b397fc0)
+    com.unity.shadergraph@17.2.0 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.shadergraph@287dd3fa176c)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.rendering.light-transport@1.0.1 (location: C:\Users\anton\My project\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 4.38 ms, found 5 plugins.
+Starting: C:\Program Files\Unity\Hub\Editor\6000.2.2f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/anton/My project
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s365ms
+[1169/1542  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.34 seconds), 1 items updated, 1542 evaluated
+AssetDatabase: script compilation time: 0.832012s
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.- Loaded All Assemblies, in  1.156 seconds
+Refreshing native plugins compatible for Editor in 5.97 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.587 seconds
+Domain Reload Profiling: 5733ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (447ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (423ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (305ms)
+			BuildScriptInfoCaches (81ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (4588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (3679ms)
+			ProcessInitializeOnLoadMethodAttributes (434ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Asset Pipeline Refresh (id=af04eadbf093c644cb63d08361f9b623): Total: 7.444 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5294 ms
+		Asset DB Callback time: managed=37 ms, native=26 ms
+		Scripting: domain reloads=1, domain reload time=1156 ms, compile time=834 ms, other=95 ms
+		Project Asset Count: scripts=2080, non-scripts=4209
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 28.348ms
+	ApplyChangesToAssetFolders: 0.700ms
+	Scan: 211.633ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 78.981ms
+	ProcessAssetsWithTransientArtifactChanges: 107.661ms
+	CategorizeAssets: 77.250ms
+	ImportOutOfDateAssets: 4607.859ms (3771.210ms without children)
+		CompileScripts: 833.668ms
+		ReloadNativeAssets: 0.027ms
+		UnloadImportedAssets: 0.960ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.492ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.502ms
+	PostProcessAllAssets: 37.170ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 2.941ms
+	PersistCurrentRevisions: 0.159ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 3.434ms
+	Untracked: 2291.413ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 13.627ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+Unloading 79 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9341 unused Assets / (7.2 MB). Loaded Objects now: 10053.
+Memory consumption went from 223.1 MB to 215.9 MB.
+Total: 13.596200 ms (FindLiveObjects: 0.934900 ms CreateObjectMapping: 0.617800 ms MarkObjects: 7.932500 ms  DeleteObjects: 4.110200 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 9.928 seconds
+	Project init time: 				9.367 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.330 seconds
+		Asset Database init time: 		0.232 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			0.661 seconds
+		Unity extensions init time: 	0.055 seconds
+		Asset Database refresh time: 	7.444 seconds
+	Scene opening time: 			0.527 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1756854371176,"processId":34620,"projectLoad":9.9282768,"projectInit":9.3666084,"templateInit":0.0,"packageManagerInit":0.330209,"assetDatabaseInit":0.2318728,"globalIlluminationInit":0.0018563,"assembliesLoad":0.6611996,"unityExtensionsInit":0.0553521,"assetDatabaseRefresh":7.4443076,"sceneOpening":0.5272032}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1756854371176,"processId":34620,"editorVersion":"6000.2.2f1 (ea398eefe1c2)","branch":"6000.2/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=70d75c7b044ab874da5552cd5d37cbe4): Total: 0.073 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = EditMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = EditModeTests
+ignoreTests = {}
+featureFlags = null
+
+0x00007ff8891833ae (Unity) StackWalker::ShowCallstack
+0x00007ff889192cb9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff88a402cde (Unity) Stacktrace::GetStacktrace
+0x00007ff88a9d8fbf (Unity) DebugStringToFile
+0x00007ff8881ca8a0 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000022fa255d57d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000022fa255d433 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000022fa255d04b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000022fa255cd90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000022fa255cc58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000022fa255984f (Mono JIT Code) UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+0x0000022fa2558652 (Mono JIT Code) UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+0x0000022fa150c120 (Mono JIT Code) UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+0x0000022cf116fc65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff9492d6e7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff949218874 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff949218960 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff8890adfc4 (Unity) scripting_method_invoke
+0x00007ff889086563 (Unity) ScriptingInvocation::Invoke
+0x00007ff889081c65 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff8891ef21b (Unity) Scripting::UnityEditor::EditorApplicationProxy::Internal_CallUpdateFunctions
+0x00007ff88a2d4f34 (Unity) SceneTracker::Update
+0x00007ff889e37e77 (Unity) Application::TickTimer
+0x00007ff88a40831c (Unity) MainMessageLoop
+0x00007ff88a40f387 (Unity) UnityMain
+0x00007ff79e352f2a (Unity) __scrt_common_main_seh
+0x00007ffaae76e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaafebc34c (ntdll) RtlUserThreadStart
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/anton/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.024s, timestamps: [9.937 - 9.962]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 10098.
+Memory consumption went from 185.3 MB to 185.3 MB.
+Total: 10.069100 ms (FindLiveObjects: 0.608900 ms CreateObjectMapping: 0.238600 ms MarkObjects: 9.191900 ms  DeleteObjects: 0.028600 ms)
+
+Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+0x00007ff8891833ae (Unity) StackWalker::ShowCallstack
+0x00007ff889192cb9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff88a402cde (Unity) Stacktrace::GetStacktrace
+0x00007ff88a9d8fbf (Unity) DebugStringToFile
+0x00007ff8881ca8a0 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000022fa255d57d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000022fa255d433 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000022fa255d04b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000022fa255cd90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000022fa255cc58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000022fa6752c12 (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:51)
+0x0000022fa67525f3 (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:35)
+0x0000022f7f0f2b7f (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:173)
+0x0000022f7f0f222b (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:109)
+0x0000022fa150c120 (Mono JIT Code) UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+0x0000022cf116fc65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff9492d6e7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff949218874 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff949218960 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff8890adfc4 (Unity) scripting_method_invoke
+0x00007ff889086563 (Unity) ScriptingInvocation::Invoke
+0x00007ff889081c65 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff8891ef21b (Unity) Scripting::UnityEditor::EditorApplicationProxy::Internal_CallUpdateFunctions
+0x00007ff88a2d4f34 (Unity) SceneTracker::Update
+0x00007ff889e37e77 (Unity) Application::TickTimer
+0x00007ff88a40831c (Unity) MainMessageLoop
+0x00007ff88a40f387 (Unity) UnityMain
+0x00007ff79e352f2a (Unity) __scrt_common_main_seh
+0x00007ffaae76e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaafebc34c (ntdll) RtlUserThreadStart
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 10096.
+Memory consumption went from 185.2 MB to 185.2 MB.
+Total: 10.049900 ms (FindLiveObjects: 0.637200 ms CreateObjectMapping: 0.554000 ms MarkObjects: 8.841400 ms  DeleteObjects: 0.016300 ms)
+
+Asset Pipeline Refresh (id=fc288d21a4dc37b4fbab2e75978d5596): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=da796d7221961c54e9b821baf72a9294): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=d05bd9b29d5ccbd4d953e3e01c2c549b): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=de9e77bf2743feb488d499b1a90f86f3): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) (NativeFormatImporter) -> (artifact id: 'ef8e500719bb704d9aa3f84bb09ed59c') in 0.010967 seconds
+Refreshing native plugins compatible for Editor in 3.70 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Asset Pipeline Refresh (id=437c89b4e333a4d47926d161b4030674): Total: 0.334 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=4 ms, native=32 ms
+		Asset DB Callback time: managed=284 ms, native=12 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2080, non-scripts=4209
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.158ms
+	Scan: 13.702ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 0.009ms
+	ProcessAssetsWithTransientArtifactChanges: 0.069ms
+	CategorizeAssets: 3.587ms
+	ImportOutOfDateAssets: 15.278ms (0.458ms without children)
+		ImportManagerImport: 12.920ms (1.674ms without children)
+			ImportInProcess: 11.230ms
+			UpdateCategorizedAssets: 0.016ms
+		ReloadNativeAssets: 0.040ms
+		UnloadImportedAssets: 0.340ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.960ms
+		InitializingProgressBar: 0.005ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.554ms
+	PostProcessAllAssets: 292.220ms
+	Hotreload: 4.734ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.323ms
+	UnloadStreamsBegin: 0.002ms
+	PersistCurrentRevisions: 0.138ms
+	UnloadStreamsEnd: 0.031ms
+	Untracked: 3.263ms
+
+Start importing Assets/_Project/Scenes/GameScene.unity using Guid(2e6ab8d3f97b97745b8fbb55c5a6d49f) (DefaultImporter) -> (artifact id: '2f8fc20c4336c7836a16b322feff9b53') in 0.0010139 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Asset Pipeline Refresh (id=be140bd92c0ad99419beedd45b71e299): Total: 0.045 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=29c7f1a6baa69c049936d9ad6403858a): Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Graybox scene built and saved at Assets/_Project/Scenes/GameScene.unity
+0x00007ff8891833ae (Unity) StackWalker::ShowCallstack
+0x00007ff889192cb9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff88a402cde (Unity) Stacktrace::GetStacktrace
+0x00007ff88a9d8fbf (Unity) DebugStringToFile
+0x00007ff8881ca8a0 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000022fa255d57d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000022fa255d433 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000022fa255d04b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000022fa255cd90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000022fa255cc58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000022fa774c783 (Mono JIT Code) SceneAutoBuilder:BuildGrayboxScene () (at C:/Users/anton/My project/Assets/Editor/SceneAutoBuilder.cs:89)
+0x0000022fa774affb (Mono JIT Code) SceneBuilderEditModeTests:Scene_Builder_Saves_GameScene () (at C:/Users/anton/My project/Assets/Tests/EditMode/SceneBuilderEditModeTests.cs:10)
+0x0000022fa77453f6 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9492d6e7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff949218874 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff94921f926 (mono-2.0-bdwgc) mono_runtime_try_invoke_array (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:5774)
+0x00007ff949151b81 (mono-2.0-bdwgc) ves_icall_InternalInvoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/icall.c:4038)
+0x00007ff949177e31 (mono-2.0-bdwgc) ves_icall_InternalInvoke_raw (at C:/build/output/Unity-Technologies/mono/mono/metadata/icall-def.h:692)
+0x0000022cec16cd90 (Mono JIT Code) (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo:InternalInvoke (System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+0x0000022cec16bbbb (Mono JIT Code) System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+0x0000022cefd8608e (Mono JIT Code) System.Reflection.MethodBase:Invoke (object,object[])
+0x0000022fa774adb3 (Mono JIT Code) NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+0x0000022fa774ab63 (Mono JIT Code) NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+0x0000022fa774ab09 (Mono JIT Code) NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+0x0000022fa774a9db (Mono JIT Code) NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+0x0000022fa774a7f3 (Mono JIT Code) NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+0x0000022fa774a54b (Mono JIT Code) UnityEngine.TestTools.UnityTestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/UnityTestMethodCommand.cs:19)
+0x0000022fa774a454 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0:<Execute>b__0 () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:24)
+0x0000022fa774a395 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:CaptureException (NUnit.Framework.Internal.TestResult,System.Action) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:73)
+0x0000022fa774a30b (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:ExecuteAndCheckLog (UnityEngine.TestTools.Logging.LogScope,NUnit.Framework.Internal.TestResult,System.Action) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:83)
+0x0000022fa774a1c3 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:24)
+0x0000022fa77499f9 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:36)
+0x0000022fa676d269 (Mono JIT Code) UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+0x0000022fa774931a (Mono JIT Code) UnityEngine.TestTools.ImmediateEnumerableCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/ImmediateEnumerableCommand.cs:18)
+0x0000022fa676d2d0 (Mono JIT Code) UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:219)
+0x0000022fa676d269 (Mono JIT Code) UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+0x0000022fa676d269 (Mono JIT Code) UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+0x0000022fa7748c66 (Mono JIT Code) UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+0x0000022fa7748306 (Mono JIT Code) UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+0x0000022fa7747afb (Mono JIT Code) UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+0x0000022fa774724a (Mono JIT Code) UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+0x0000022fa7746ae9 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem/<PerformWork>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:50)
+0x0000022fa676efe2 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__17:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:207)
+0x0000022fa6769742 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__13:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:82)
+0x0000022fa676efe2 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__17:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:207)
+0x0000022fa6769742 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__13:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:82)
+0x0000022fa676efe2 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__17:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:207)
+0x0000022fa6769742 (Mono JIT Code) UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__13:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:82)
+0x0000022fa6768fba (Mono JIT Code) UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:169)
+0x0000022fa6768de3 (Mono JIT Code) UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer (UnityEditor.TestTools.TestRunner.TestRunnerStateSerializer) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:200)
+0x0000022fa67647e3 (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.Tasks.EditModeRunTask/<Execute>d__1:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/Tasks/EditModeRunTask.cs:49)
+0x0000022f7f0f2b7f (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:173)
+0x0000022f7f0f222b (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:109)
+0x0000022fa150c120 (Mono JIT Code) UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+0x0000022cf116fc65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff9492d6e7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff949218874 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff949218960 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff8890adfc4 (Unity) scripting_method_invoke
+0x00007ff889086563 (Unity) ScriptingInvocation::Invoke
+0x00007ff889081c65 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff8891ef21b (Unity) Scripting::UnityEditor::EditorApplicationProxy::Internal_CallUpdateFunctions
+0x00007ff88a2d4f34 (Unity) SceneTracker::Update
+0x00007ff889e37e77 (Unity) Application::TickTimer
+0x00007ff88a40831c (Unity) MainMessageLoop
+0x00007ff88a40f387 (Unity) UnityMain
+0x00007ff79e352f2a (Unity) __scrt_common_main_seh
+0x00007ffaae76e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaafebc34c (ntdll) RtlUserThreadStart
+
+Saving results to: C:/Users/anton/AppData/LocalLow/DefaultCompany/My project\TestResults.xml
+Saving results to: C:\Users\anton\My project\Tools\TestResults_EditMode.xml
+Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+0x00007ff8891833ae (Unity) StackWalker::ShowCallstack
+0x00007ff889192cb9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff88a402cde (Unity) Stacktrace::GetStacktrace
+0x00007ff88a9d8fbf (Unity) DebugStringToFile
+0x00007ff8881ca8a0 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000022fa255d57d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000022fa255d433 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000022fa255d04b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000022fa255cd90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000022fa255cc58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000022fa6752c12 (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:51)
+0x0000022fa67525f3 (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<T_REF>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:35)
+0x0000022f7f0f2b7f (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:173)
+0x0000022f7f0f222b (Mono JIT Code) UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:109)
+0x0000022fa150c120 (Mono JIT Code) UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+0x0000022cf116fc65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff9492d6e7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff949218874 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff949218960 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff8890adfc4 (Unity) scripting_method_invoke
+0x00007ff889086563 (Unity) ScriptingInvocation::Invoke
+0x00007ff889081c65 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff8891ef21b (Unity) Scripting::UnityEditor::EditorApplicationProxy::Internal_CallUpdateFunctions
+0x00007ff88a2d4f34 (Unity) SceneTracker::Update
+0x00007ff889e37e77 (Unity) Application::TickTimer
+0x00007ff88a40831c (Unity) MainMessageLoop
+0x00007ff88a40f387 (Unity) UnityMain
+0x00007ff79e352f2a (Unity) __scrt_common_main_seh
+0x00007ffaae76e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaafebc34c (ntdll) RtlUserThreadStart
+
+Asset Pipeline Refresh (id=a99b714ff7db6324e8a86b04aae4aa70): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (17.9 KB). Loaded Objects now: 10115.
+Memory consumption went from 223.0 MB to 223.0 MB.
+Total: 9.862700 ms (FindLiveObjects: 0.370100 ms CreateObjectMapping: 0.217400 ms MarkObjects: 9.143300 ms  DeleteObjects: 0.130900 ms)
+
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 0 (Ok). Run completed.
+0x00007ff8891833ae (Unity) StackWalker::ShowCallstack
+0x00007ff889192cb9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff88a402cde (Unity) Stacktrace::GetStacktrace
+0x00007ff88a9d8fbf (Unity) DebugStringToFile
+0x00007ff8881ca8a0 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000022fa255d57d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x0000022fa255d433 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000022fa255d04b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000022fa255cd90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000022fa255cc58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000022fb51ca76c (Mono JIT Code) UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+0x0000022f7f0f48eb (Mono JIT Code) UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@a6f5be5f149c/UnityEditor.TestRunner/CommandLineTest/Executer.cs:75)
+0x0000022fa150c120 (Mono JIT Code) UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+0x0000022cf116fc65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff9492d6e7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff949218874 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff949218960 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff8890adfc4 (Unity) scripting_method_invoke
+0x00007ff889086563 (Unity) ScriptingInvocation::Invoke
+0x00007ff889081c65 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff8891ef21b (Unity) Scripting::UnityEditor::EditorApplicationProxy::Internal_CallUpdateFunctions
+0x00007ff88a2d4f34 (Unity) SceneTracker::Update
+0x00007ff889e37e77 (Unity) Application::TickTimer
+0x00007ff88a40831c (Unity) MainMessageLoop
+0x00007ff88a40f387 (Unity) UnityMain
+0x00007ff79e352f2a (Unity) __scrt_common_main_seh
+0x00007ffaae76e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaafebc34c (ntdll) RtlUserThreadStart
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-anton-6000.2.2-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-anton-6000.2.2 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1756854374032,"processId":34620,"allocatedMemory":18744246,"memoryLabels":[{"Default":14265},{"Permanent":15468},{"NewDelete":65905},{"Thread":4230344},{"Manager":31066},{"VertexData":8},{"Geometry":816},{"VFX":-104},{"Texture":296},{"Shader":78821},{"Material":24},{"GfxDevice":55208},{"Animation":392},{"Audio":4040},{"FontEngine":256},{"Physics":2050},{"Serialization":304},{"Input":14824},{"JobScheduler":33640},{"TextLib":160},{"Mono":32},{"MonoCode":256},{"ScriptingNativeRuntime":155060},{"BaseObject":1620272},{"Resource":1304},{"Renderer":2928},{"Transform":4646},{"File":9899},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":9428},{"DynamicArray":121225},{"HashMap":62254},{"Utility":2660502},{"Curl":48},{"PoolAlloc":2584},{"AI":40},{"TypeTree":5005},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7824},{"Director":8240},{"WebRequest":808},{"VR":46114},{"SceneManager":496},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":256},{"Hierarchy":272},{"CoreStats":12424},{"Identifiers":12384},{"Gui":80},{"EditorUtility":97097},{"VersionControl":4},{"Undo":947},{"AssetDatabase":8948793},{"EditorGi":328},{"UnityConnect":24552},{"Upm":1896},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":4040},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
